@@ -1,0 +1,374 @@
+{
+	"camera" : 
+	{
+		"alwaysUp" : true,
+		"far" : 1000.0,
+		"fov" : 80.0,
+		"near" : 0.0099999997764825821,
+		"orientation" : 
+		{
+			"w" : -0.31211110949516296,
+			"x" : 0.0057884166017174721,
+			"y" : 0.94998449087142944,
+			"z" : 0.017619140446186066
+		},
+		"position" : 
+		{
+			"x" : -8.1492710113525391,
+			"y" : 5.3379960060119629,
+			"z" : -8.556971549987793
+		},
+		"speed" : 1.0
+	},
+	"materials" : 
+	[
+		{
+			"color" : 
+			{
+				"b" : 0.0,
+				"g" : 0.0,
+				"r" : 1.0
+			},
+			"emission" : 
+			{
+				"b" : 0.0,
+				"g" : 0.0,
+				"r" : 0.0
+			},
+			"metalness" : 
+			{
+				"value" : 0.0
+			},
+			"name" : "material1",
+			"opacity" : 
+			{
+				"value" : 1.0
+			},
+			"roughness" : 
+			{
+				"value" : 1.0
+			}
+		},
+		{
+			"color" : 
+			{
+				"b" : 0.0,
+				"g" : 1.0,
+				"r" : 1.0
+			},
+			"emission" : 
+			{
+				"b" : 0.0,
+				"g" : 0.0,
+				"r" : 0.0
+			},
+			"metalness" : 
+			{
+				"value" : 1.0
+			},
+			"name" : "material",
+			"opacity" : 
+			{
+				"value" : 1.0
+			},
+			"roughness" : 
+			{
+				"value" : 0.17999999225139618
+			}
+		},
+		{
+			"color" : 
+			{
+				"b" : 1.0,
+				"g" : 1.0,
+				"r" : 1.0
+			},
+			"emission" : 
+			{
+				"b" : 0.0,
+				"g" : 0.0,
+				"r" : 0.0
+			},
+			"metalness" : 
+			{
+				"value" : 0.5
+			},
+			"name" : "default",
+			"opacity" : 
+			{
+				"value" : 1.0
+			},
+			"roughness" : 
+			{
+				"value" : 0.5
+			}
+		}
+	],
+	"objects" : 
+	{
+		"shapes" : 
+		[
+			{
+				"drawable" : true,
+				"material" : "material1",
+				"name" : "obstacle1:obstacles",
+				"orientation" : 
+				{
+					"w" : 1.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0
+				},
+				"position" : 
+				{
+					"x" : 0.0,
+					"y" : -10.0,
+					"z" : 0.0
+				},
+				"rigidBody" : 
+				{
+					"active" : true,
+					"type" : 0
+				},
+				"size" : 
+				{
+					"x" : 100.0,
+					"y" : 1.0,
+					"z" : 100.0
+				}
+			},
+			{
+				"drawable" : true,
+				"material" : "default",
+				"name" : "ladder:platforms",
+				"orientation" : 
+				{
+					"w" : 0.96242517232894897,
+					"x" : -0.2715471088886261,
+					"y" : 0.0,
+					"z" : 0.0
+				},
+				"position" : 
+				{
+					"x" : 11.5,
+					"y" : 2.7999999523162842,
+					"z" : 5.5
+				},
+				"rigidBody" : 
+				{
+					"active" : true,
+					"type" : 0
+				},
+				"size" : 
+				{
+					"x" : 1.3999999761581421,
+					"y" : 0.099999897181987762,
+					"z" : 2.5
+				}
+			},
+			{
+				"drawable" : true,
+				"material" : "default",
+				"name" : "p3:platforms",
+				"orientation" : 
+				{
+					"w" : 1.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0
+				},
+				"position" : 
+				{
+					"x" : 12.799992561340332,
+					"y" : 3.8999981880187988,
+					"z" : 11.900010108947754
+				},
+				"rigidBody" : 
+				{
+					"active" : true,
+					"type" : 0
+				},
+				"size" : 
+				{
+					"x" : 4.0,
+					"y" : 0.10000000149011612,
+					"z" : 4.0
+				}
+			},
+			{
+				"drawable" : true,
+				"material" : "default",
+				"name" : "p2:platforms",
+				"orientation" : 
+				{
+					"w" : 1.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0
+				},
+				"position" : 
+				{
+					"x" : 11.300000190734863,
+					"y" : 6.899996280670166,
+					"z" : 23.600046157836914
+				},
+				"rigidBody" : 
+				{
+					"active" : true,
+					"type" : 0
+				},
+				"size" : 
+				{
+					"x" : 4.0,
+					"y" : 0.10000000149011612,
+					"z" : 4.0
+				}
+			},
+			{
+				"drawable" : false,
+				"material" : "default",
+				"name" : "player",
+				"orientation" : 
+				{
+					"w" : 1.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0
+				},
+				"position" : 
+				{
+					"x" : 0.0,
+					"y" : 3.099998950958252,
+					"z" : 0.0
+				},
+				"rigidBody" : 
+				{
+					"active" : true,
+					"type" : 2
+				},
+				"size" : 
+				{
+					"x" : 0.5,
+					"y" : 1.7799999713897705,
+					"z" : 0.5
+				}
+			},
+			{
+				"drawable" : true,
+				"material" : "material1",
+				"name" : "obstacle:obstacles",
+				"orientation" : 
+				{
+					"w" : 1.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0
+				},
+				"position" : 
+				{
+					"x" : 13.0,
+					"y" : 4.5999999046325684,
+					"z" : 11.5
+				},
+				"rigidBody" : 
+				{
+					"active" : true,
+					"type" : 0
+				},
+				"size" : 
+				{
+					"x" : 4.0,
+					"y" : 0.40000000596046448,
+					"z" : 1.0
+				}
+			},
+			{
+				"drawable" : true,
+				"material" : "default",
+				"name" : "p1:platforms",
+				"orientation" : 
+				{
+					"w" : 1.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0
+				},
+				"position" : 
+				{
+					"x" : 10.800000190734863,
+					"y" : 1.5,
+					"z" : -0.3999980092048645
+				},
+				"rigidBody" : 
+				{
+					"active" : true,
+					"type" : 0
+				},
+				"size" : 
+				{
+					"x" : 4.0,
+					"y" : 0.10000000149011612,
+					"z" : 4.0
+				}
+			},
+			{
+				"drawable" : true,
+				"material" : "material",
+				"name" : "goal",
+				"orientation" : 
+				{
+					"w" : 1.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0
+				},
+				"position" : 
+				{
+					"x" : 11.0,
+					"y" : 9.4000024795532227,
+					"z" : 24.300048828125
+				},
+				"rigidBody" : 
+				{
+					"active" : true,
+					"type" : 0
+				},
+				"size" : 
+				{
+					"x" : 0.30000001192092896,
+					"y" : 0.30000001192092896,
+					"z" : 0.30000001192092896
+				}
+			},
+			{
+				"drawable" : true,
+				"material" : "default",
+				"name" : "p:platforms",
+				"orientation" : 
+				{
+					"w" : 1.0,
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0
+				},
+				"position" : 
+				{
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0
+				},
+				"rigidBody" : 
+				{
+					"active" : true,
+					"type" : 0
+				},
+				"size" : 
+				{
+					"x" : 4.0,
+					"y" : 0.10000000149011612,
+					"z" : 4.0
+				}
+			}
+		]
+	}
+}
