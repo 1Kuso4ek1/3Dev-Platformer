@@ -1,6 +1,6 @@
 class Player
 {
-	Player(Shape@ body, float speed, float jumpForce)
+	Player(Model@ body, float speed, float jumpForce)
 	{
 		this.startPos = body.GetPosition();
 		@this.body = @body;
@@ -8,7 +8,7 @@ class Player
 		this.jumpForce = jumpForce;
 	}
 
-	void Move(ShapeGroup& in platforms, ShapeGroup& in obstacles, Shape@ goal)
+	void Move(ModelGroup& in platforms, ModelGroup& in obstacles, Model@ goal)
 	{
 		body.SetOrientation(Quaternion(0.0, 0.0, 0.0, 1.0));
 		
@@ -45,5 +45,5 @@ class Player
 
 	private Vector3 startPos;
 	private float speed, jumpForce;
-	private Shape@ body;
+	private Model@ body;
 };

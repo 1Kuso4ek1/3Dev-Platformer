@@ -1,18 +1,18 @@
 #include "Player.as"
 
-ShapeGroup platforms, obstacles;
+ModelGroup platforms, obstacles;
 Player@ player;
-Shape@ goal;
+Model@ goal;
 Clock clock;
 
 void Start()
 {
 	Game::manageCameraMovement = false;
 
-	platforms = Game::scene.GetShapeGroup("platforms");
-	obstacles = Game::scene.GetShapeGroup("obstacles");
-	@player = @Player(Game::scene.GetShape("player"), 10.0, 400.0);
-	@goal = @Game::scene.GetShape("goal");
+	platforms = Game::scene.GetModelGroup("platforms");
+	obstacles = Game::scene.GetModelGroup("obstacles");
+	@player = @Player(Game::scene.GetModel("player"), 12.0, 200.0);
+	@goal = @Game::scene.GetModel("goal");
 }
 
 void Loop()
